@@ -37,3 +37,21 @@ print(list(filter(lambda x: x % 2 == 0, numbers))) # [2, 4, 6, 8, 10, 12, 14, 16
 # print(square_numbers(numbers))  # [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 
 ######################################################################################
+
+mapper = {
+    "+": lambda x, y: x + y,
+    "-": lambda x, y: x - y,
+    "*": lambda x, y: x * y,
+    "/": lambda x, y: x / y
+}
+
+operator = input("Въведете оператор (+, -, *, /): ")
+operand1 = float(input("Въведете първо число: "))
+operand2 = float(input("Въведете второ число: "))
+
+if operator in mapper:
+    result = mapper[operator](operand1, operand2)  # Поставяме скоби и подаваме параметрите
+    print("Резултат:", result)
+else:
+    print("Невалиден оператор")
+
