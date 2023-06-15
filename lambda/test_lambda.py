@@ -20,6 +20,7 @@ print(list(filter(lambda x: x % 2 == 0, numbers))) # [2, 4, 6, 8, 10, 12, 14, 16
 #         return False
 
 
+
 # result = list(filter(check_numbers, numbers))
 
 # print(result)  # [2, 4, 6, 8, 10, 12, 14, 16]
