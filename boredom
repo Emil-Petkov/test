@@ -1,0 +1,15 @@
+[print(x, end="\t") for x in "Hello World"]
+print()
+[print(ord(x), end="\t") for x in "Hello World"]
+
+# H	  e	  l	  l  	o	 	   W	o	  r	  l	  d	
+# 72	101	108	108	111	32 87	111	114	108	100	
+
+################################################################
+
+[print(x, end="\t") for x in "72 101 108 108 111 32	87 111 114 108 100".split()]
+print()
+[print(chr(int(x)), end="\t") for x in "72 101 108 108 111 32 87 111 114 108 100".split()]
+
+# 72 101 108 108 111 32	87 111 114 108 100	
+# H	 e	 l	 l	 o	 	  W	 o	 r	 l	 d
