@@ -5,4 +5,4 @@ def sorted_numbers(numbers):
     return list(reversed(sorted(numbers)))
 
 
-print(sorted_numbers(numbers))
+print(sorted_numbers(numbers)) # [123, 85, 35, 33, 9, 6, 4, 3, 2, 1]
