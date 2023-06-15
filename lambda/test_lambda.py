@@ -35,3 +35,4 @@ print(list(filter(lambda x: x % 2 == 0, numbers))) # [2, 4, 6, 8, 10, 12, 14, 16
 
 
 # print(square_numbers(numbers))  # [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+
